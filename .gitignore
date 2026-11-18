@@ -1,3 +1,5 @@
 .venv
 .idea/
 *.env
+data/eval_results/
+data/vector_db/
