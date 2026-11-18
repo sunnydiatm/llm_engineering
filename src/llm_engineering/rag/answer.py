@@ -10,7 +10,7 @@ from llm_engineering.config import DB_NAME, EMBEDDING_MODEL
 load_dotenv(override=True)
 
 MODEL = "gpt-6-luna"   # check this is valid for your account; see note below
-RETRIEVAL_K = 10
+RETRIEVAL_K = 3
 
 embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
 

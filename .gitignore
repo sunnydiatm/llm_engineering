@@ -3,3 +3,10 @@
 *.env
 data/eval_results/
 data/vector_db/
+*.bin
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+

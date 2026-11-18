@@ -16,3 +16,7 @@ LLM_MODEL = "gpt-4.1-mini"        # use the model name you actually have access 
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 200
 TOP_K = 10
+
+EVALS_DIR = DATA_DIR / "evals"
+TEST_FILE = EVALS_DIR / "tests.jsonl"
+JUDGE_MODEL = "openai/gpt-6-luna"
