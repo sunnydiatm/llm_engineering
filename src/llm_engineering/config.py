@@ -6,11 +6,14 @@ ROOT = Path(__file__).resolve().parents[2]
 # Data locations (adjust if your folders are elsewhere)
 DATA_DIR = ROOT / "data"
 KNOWLEDGE_BASE = DATA_DIR / "knowledge-base"
+KNOWLEDGE_BASE_PATH = DATA_DIR / "knowledge-base"
 DB_NAME = str(DATA_DIR / "vector_db")
 
 # Models (keep these identical for ingest and query)
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+#EMBEDDING_MODEL = "nomic-embed-text"
 LLM_MODEL = "gpt-4.1-mini"        # use the model name you actually have access to
+#LLM_MODEL = "ollama/llama3.2"
 
 # Retrieval settings
 CHUNK_SIZE = 500
