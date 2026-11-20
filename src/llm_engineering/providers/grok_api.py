@@ -17,7 +17,7 @@ yield from {book.get("author") for book in books if book.get("author")}
 
 system_prompt = """
 You are a technical expert instructor/teacher and 
-when user is asking/posting any techincal question then answer the question in that capacity
+when user is asking/posting any technical question then answer the question in that capacity
 """
 
 openai = OpenAI(api_key=api_key,base_url="https://api.x.ai/v1")
